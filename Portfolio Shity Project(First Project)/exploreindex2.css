@@ -1,0 +1,63 @@
+body {
+  margin: 0%;
+  background-color: bisque;
+}
+
+.pro {
+  position: absolute;
+  left: 300px;
+  top: 100px;
+}
+.contact {
+  position: absolute;
+  left: 400px;
+  top: 25%;
+}
+.about {
+  position: absolute;
+  left: 500px;
+  top: 38%;
+}
+
+.home2,
+.about2,
+.contact2,
+.pro2 {
+  text-decoration: none;
+  color: black;
+}
+.home2:hover,
+.about2:hover,
+.contact2:hover,
+.pro2:hover {
+  background-color: black;
+  color: aqua;
+}
+.home {
+  position: absolute;
+  left: 600px;
+  top: 400px;
+}
+.home:hover,
+.about:hover,
+.contact:hover,
+.pro:hover {
+  transform: rotate(1deg);
+  transition: ease-in-out 0.2s;
+  box-shadow: 5px 10px;
+  padding: 10px;
+  color: rgb(66, 65, 66);
+  background-color: black;
+  color: aqua;
+}
+.home,
+.about,
+.pro,
+.contact {
+  background-color: aqua;
+  border-radius: 8px;
+  padding: 8px 15px 8px 15px;
+  border-style: none;
+  font-size: 30px;
+  font-weight: bold;
+}

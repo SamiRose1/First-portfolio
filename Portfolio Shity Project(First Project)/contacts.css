@@ -1,0 +1,82 @@
+body {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  
+  background-image: linear-gradient(230deg, #110700,#000000, #000000, #01353d, #020018) 
+
+}
+
+.email, .email2 {
+  display:block;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  width: 38%;
+  margin: 0%;
+  text-decoration: underline;
+  padding: 4px;
+}
+
+.number {
+  display: inline-block;
+  width: 100%;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 20px;
+  color: white;
+  text-decoration: underline;
+  padding: 4px;
+}
+
+
+h2 {
+  color: white;
+  font-weight: bold;
+  font-size: 30px;
+  font-size: 50px;
+  margin-top: 10px;
+  text-decoration: underline;
+  text-align: left;
+  
+  
+}
+.about {
+  color: #18ffff;
+  font-weight: bold;
+  font-family: sans-serif;
+  width: 430px;
+
+}
+
+.home2:hover, .home:hover, .back:hover, .back2:hover {
+  transform: rotate(6deg);
+  transition: ease-in-out 0.3s;
+  background-color: black;
+  color: #18ffff;
+}
+.home, .back {
+  background-color: aqua;
+  border-style: none;
+  padding: 10px;
+  border-radius: 8px;
+  margin: 10px;
+}
+.home:hover, .back:hover {
+  box-shadow: 5px 10px#ff1744;
+}
+.back2, .home2 {
+  text-decoration: none;
+  color: black;
+  padding: 8px;
+  font-size: 15px;
+  font-weight: bold;
+}
+#about {
+  position: fixed;
+  right: 0;
+  left: 0;
+  min-width: 50%;
+  max-height: 120%;
+}
